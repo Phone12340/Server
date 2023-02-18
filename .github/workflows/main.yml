@@ -16,6 +16,7 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/Phone12340/Server/main/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/Phone12340/Server/main/wallpaper.bat -OutFile wallpaper.bat
         Invoke-WebRequest https://raw.githubusercontent.com/Phone12340/Server/main/loop.bat -OutFile loop.bat
+
     - name: Extracting Ngrok Files
       run: Expand-Archive ngrok.zip
     - name: Connect To Ngrok Account
