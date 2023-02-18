@@ -1,4 +1,4 @@
-name: WinPC
+name: One-Hour-Windows-PC
 
 on: workflow_dispatch
 
