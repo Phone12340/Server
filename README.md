@@ -1,4 +1,4 @@
-$ yr# VPS 
+# VPS 
 ```json
 Running 
 /30/01/2024/
